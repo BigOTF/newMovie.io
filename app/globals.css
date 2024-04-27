@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.headerColor {
+    background-color: rgba(8, 8, 83, 0.938);
+}
+
+.p-round {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.p-round:hover {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+  
+.backdrop{
+    background-image: linear-gradient(to right, rgba(31.5, 10.5, 10.5, 1) calc((50vw - 170px) - 340px), rgba(31.5, 10.5, 10.5, 0.84) 50%, rgba(31.5, 10.5, 10.5, 0.84) 100%);
+}
+
+.rating-radius {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+
+.cast-bacgroundColor {
+   background-color: rgba(52.5, 31.5, 10.5, 1)
+}
+
+.order-list::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.order-list::after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.texts {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+input[type='search'] {
+    border: none;
+    
+}
